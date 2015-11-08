@@ -6,7 +6,7 @@ canvas#spiders {
 h1.main-title {
   position: relative;
   margin-top: -350px;
-  font-size: 5vw !important;
+  font-size: 3vw !important;
   color: #fff;
   font-weight: 600;
 }
@@ -129,6 +129,13 @@ p {
   font-weight: normal;
   line-height: 24px;
   margin: 0 0 20px 0;
+}
+
+.time {
+  font-size: 3vw !important;
+  color: #FFFF00;
+  font-weight: 600;
+  position: relative;
 }
 
 /*-------------------------------------------------------*/

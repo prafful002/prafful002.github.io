@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
  	"use strict";	
@@ -18,6 +19,16 @@ $(document).ready(function(){
 			$('.portfolio-filter a').removeClass('active');
 			$(this).closest('a').addClass('active');
 
+		});
+
+		//Countdown js
+	 $("#countdown").countdown({
+			date: "10 july 2017 12:00:00",
+			format: "on"
+		},
+		
+		function() {
+			// callback function
 		});
 
 	
@@ -231,3 +242,6 @@ function container_full_height_init(){
         $(".container-full-height").height($(window).height());
     })(jQuery);
 }
+
+
+	
